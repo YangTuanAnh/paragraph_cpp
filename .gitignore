@@ -1,0 +1,9 @@
+.xmake
+.vscode
+bin
+build
+old
+*.exe
+/*.txt
+/*.ini
+playground
