@@ -47,7 +47,7 @@ int main(int argc, char *argv[]) {
         rlImGuiBegin();
 
         // Our menu bar
-        Menubar::draw_menubar(running, showDemoWindow, show_inspector);
+        Menubar::draw_menubar(running, showDemoWindow, show_inspector, backend.get_theme_index());
 
         // This is the main display area, that fills the app's window
         ImGuiViewport *viewport = ImGui::GetMainViewport();

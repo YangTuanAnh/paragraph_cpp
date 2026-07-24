@@ -4,7 +4,7 @@
 class Menubar {
   public:
     static void draw_menubar(bool &running, bool &showDemoWindow,
-                             bool &show_inspector);
+                             bool &show_inspector, int &theme_index);
 };
 
 #endif
