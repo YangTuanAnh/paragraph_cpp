@@ -44,6 +44,8 @@ class Backend {
     Graph graph;
     bool queried_graph = 0;
 
+    int theme_index = 0;
+
   public:
     Backend(const std::string& db_name = "data/main.db") { init_db(db_name); }
     ~Backend() { sqlite3_close(db); };
@@ -95,6 +97,8 @@ class Backend {
     void open_area(const std::string &id);
     void open_project(const std::string &id);
     void open_task(const std::string &id);
+
+    int& get_theme_index() { return theme_index; }
 
     const Selection &get_selection() const;
 };
