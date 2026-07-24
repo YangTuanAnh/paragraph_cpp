@@ -70,8 +70,9 @@ endif()
 
 # Copy the data files
 add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
-    COMMAND ${CMAKE_COMMAND} -E create_symlink ${CMAKE_SOURCE_DIR}/data/
-    $<TARGET_FILE_DIR:${PROJECT_NAME}>/data/)
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+        "${CMAKE_SOURCE_DIR}/data"
+        "$<TARGET_FILE_DIR:${PROJECT_NAME}>/data")
 
 # installation
 include(GNUInstallDirs)
