@@ -4,6 +4,6 @@ bin
 build
 old
 *.exe
-/*.txt
 /*.ini
 playground
+libs

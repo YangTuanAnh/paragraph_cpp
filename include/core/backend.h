@@ -9,7 +9,7 @@
 #include "task.h"
 #include "utils.h"
 #include <filesystem>
-#include <sqlite3.h>
+#include "sqlite3.h"
 #include <unordered_map>
 
 enum class SelectionType { None, Area, Project, Task, Resource };

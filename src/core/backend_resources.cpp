@@ -2,7 +2,7 @@
 
 #include <algorithm>
 #include <iostream>
-#include <sqlite3.h>
+#include "sqlite3.h"
 
 void Backend::read_stmt_resource(Resource &resource, sqlite3_stmt *stmt) {
     resource.id = reinterpret_cast<const char *>(sqlite3_column_text(stmt, 0));
