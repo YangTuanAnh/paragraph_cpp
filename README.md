@@ -2,6 +2,8 @@
 
 ## Why?
 
+Detailed post: [Alpha release of Paragraph - The Good, The Bad, The Whimsy, The 4%](https://www.yangtuananh.dev/posts/alpha_release_of_paragraph)
+
 Original post: [I'm releasing Paragraph (soon)!](https://www.yangtuananh.dev/posts/im_releasing_paragraph)
 
 Windows Release: [Paragraph-0.1.0-win64.zip](https://github.com/YangTuanAnh/paragraph_cpp/releases/tag/pre-release)
