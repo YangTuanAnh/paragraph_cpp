@@ -10,7 +10,6 @@ Windows Release: [Paragraph-0.1.0-win64.zip](https://github.com/YangTuanAnh/para
 
 TODO:
 - [ ] Markdown notes editor
-- [ ] MCP Server
 - [ ] More unit, E2E tests
 - [ ] R&D for graph theoretic functionalities
 
